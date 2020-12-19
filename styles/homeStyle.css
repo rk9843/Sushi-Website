@@ -1,0 +1,46 @@
+/* Custom Style Sheet */
+body {
+    background: #212121;
+}
+h1 {
+    color: #ffffff;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 68px; 
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    color: #adadad;
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #adadad;
+    text-decoration: none;
+}
+a:hover {
+    color: #cecece;
+    text-decoration: underline;
+}
+
+.centerBox {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.heading {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
